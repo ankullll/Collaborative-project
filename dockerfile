@@ -1,6 +1,6 @@
 # Build the Frontend [dist folder]
 # Copy the dist folder content in Backend/public folder
-
+# node:22-alpine is lastest node version for linux
 FROM node:22-alpine as frontend-builder
 
 COPY ./Frontend /app
